@@ -1,0 +1,55 @@
+<h1>Course Registration Form</h1>
+
+<form>
+	<fieldset>
+		<legend>Personal Details</legend>
+		<table>
+			<tr><td><label>First Name</label></td><td><input type="text" name="FN" placeholder="Ex-Rishabh" size="15"></td></tr>
+
+			<tr> <td><label>Surname</label></td><td><input type="text" name="LN" placeholder="Ex-Singh" size="15"></td> </tr>
+
+			<tr><td><label>Mobile Number</label></td><td><input type="tel" name="mob" placeholder="987-897-0987" size="15"></td> </tr>
+
+			<tr><td><label>Email</label></td><td><input type="Email"name="mail" size="15" placeholder="Ex:rishabh58@gmai.com"></td> </tr>
+
+			<tr><td><label>Password</label></td><td><input type="Password" name="pwd" placeholder="min 5 character"></td> </tr>
+
+			<tr><td><label>Confirm Password</label></td><td><input type="Password" name="pwd" placeholder="min 5 character"></td> </tr>
+
+			<tr><td><label>DOB</label></td><td><input type="date" name="dob"></td> </tr>
+
+			<tr><td><label>Gender</label></td><td><input type="radio" name="gender" value="M">Male<input type="radio" name="gender" value="F">Female<input type="radio" name="gender" value="C">Custom</td> </tr>
+
+			<tr><td><label>Select Country</label></td><td><select name="Country">
+			<option>India</option>
+			<option>USA</option>
+			<option>Nepal</option>
+			</select></td> </tr>
+
+			<tr><td><label>Upload Picture</label></td><td><input type="file" name="pic"></td> </tr>
+
+			<tr><td><input type="reset"></td></tr>
+
+		</table>
+	
+	</fieldset>
+
+	<fieldset>
+		<legend>Course Details</legend>
+		<label>Select course</label>
+		<select>
+			<option value="PFS">Python FUll Stack</option>
+			<option value="JFS">Java Full Stack</option>
+			<option value="CJ">Core Java</option>
+			<option value="PDS">Python for Data Science</option>
+		</select><br>
+
+		<label>Delivery Mode</label>
+		<input type="checkbox" name="mode1" value="ON">Online
+		<input type="checkbox" name="mode2" value="OFF">Offline<br>
+
+		<label>Comments</label><br>
+		<textarea rows="4"></textarea>
+	</fieldset>
+	<img src="C:\Users\risha_ru2ka0e\OneDrive\Desktop\html\submit-button.iconl.webp" height="75" width="90" type="input">
+</form>
